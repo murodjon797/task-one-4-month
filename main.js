@@ -10,8 +10,8 @@ Form.addEventListener('submit',(e) => {
    wordSpan.innerHTML = ''
    phonetic.innerHTML = ''
    unordered.innerHTML = ''
-   
 
+   
    fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${formWord.value}`)
       .then(res => res.json())
       .then(data => {
