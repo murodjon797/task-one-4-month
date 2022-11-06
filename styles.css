@@ -1,0 +1,16 @@
+body {
+   font-family: 'Quicksand',sans-serif;
+}
+
+
+.audio {
+   width: 57px;
+   height: 57px;
+   padding: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #202020;
+   border-radius: 50%;
+   cursor: pointer;
+}

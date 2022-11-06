@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./styles.css">
+   <title>Document</title>
+</head>
+<body>
+
+   <!-- Main Container-->
+   <div class="container">
+      <h1 class="text-center py-3">Dictionary</h1>
+      <!-- Form Section -->
+      <form id="form" class="input-group my-5">
+         <input spellcheck="false" id="word" name="word" type="text" class="form-control p-2"  placeholder="Input word">
+         <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Search</button>
+       </form>
+
+       <!-- Translate Section-->
+       <div class="box card p-5  border border-dark">
+         <h1 id="wordCard"> <span id="wordSpan"></span>  <span id="phonetic"></span></h1>
+         <ul id="unordered"></ul>
+         <div id="audioBox" style="display: none; " class="audio">
+            <img id="play" width="21" src="./images/play-solid.svg" alt="play">
+         </div>
+
+       </div>
+   </div>
+
+
+   <script src="./main.js"></script>
+   
+</body>
+</html>
