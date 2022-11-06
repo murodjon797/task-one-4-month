@@ -35,8 +35,6 @@ Form.addEventListener('submit',(e) => {
                fragment.appendChild(list)
             })
             
-
-            
             unordered.appendChild(fragment)
          }
 
